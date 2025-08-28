@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #111827; /* Dark background */
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full max-w-sm bg-gray-800 border border-gray-700 rounded-2xl shadow-lg p-8 transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
+        <div class="flex flex-col items-center">
+            <img class="w-32 h-32 mb-4 rounded-full shadow-lg border-4 border-gray-600" src="https://placehold.co/128x128/374151/E5E7EB?text=Me" alt="Profile image"/>
+            <h1 class="text-2xl font-bold text-white mb-1">あなたの名前</h1>
+            <h2 class="text-md text-gray-400 mb-4">Web Developer & Designer</h2>
+            <p class="text-gray-300 text-center mb-6">
+                ここに簡単な自己紹介文を入れます。テクノロジーと美しいデザインで、世界を少し良くすることに情熱を注いでいます。
+            </p>
+            <div class="flex mt-4 space-x-5">
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-linkedin-in fa-2x"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <i class="fas fa-globe fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
